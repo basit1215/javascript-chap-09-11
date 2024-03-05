@@ -1,0 +1,31 @@
+#main-head{
+color: rgb(19, 19, 250);
+font-size: 25px;
+ 
+
+}
+#sub-head{
+    color: rgb(19, 19, 250);
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+}
+#light-blue{
+background-color: rgb(123, 123, 255);
+width: 40px;
+}
+table{
+
+}
+#sub-para{
+    color:rgb(89, 206, 245);
+    text-align: center;
+}
+.border{
+    border-top: 2px solid darkblue;
+border-bottom: 2px solid darkblue;
+
+}
+.midtr{
+    width: 40px;
+}
