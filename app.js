@@ -40,3 +40,53 @@ if (car_fuel<= 0.25  ){
 else if(car_fuel> 0.25){
     alert("Please Refill Your Car Fuel before 0.25 litres...")
 }
+
+var a=20;
+if(++a===21){
+    alert("Given condition for variable a is true");
+}
+
+var b=60;
+if (b++===61){
+    alert("Given condition for variable b is true");
+}
+
+var c=95;
+if(c++===95){
+    alert("Condition 1 is true");
+}
+if(c===96){
+    alert("Condition 2 is true");
+}
+if(++c<98){
+    alert("Condition 3 is true");
+}
+if(c===97){
+    alert("Condition 4 is true");
+}
+if(++c<=98){
+    alert("Condition 5 is true");
+}
+
+var material_cost=25000;
+var laber_cost=3000;
+var total_cost=material_cost + laber_cost;
+if(total_cost){
+    alert("The Cost Equals");
+}
+
+if(true){
+    alert("true");
+}
+
+if(false){
+    alert("False");
+}
+
+if("car" < "cat"){
+    alert("car is smaller than cat");
+}
+
+
+
+ 
