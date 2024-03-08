@@ -87,6 +87,64 @@ if("car" < "cat"){
     alert("car is smaller than cat");
 }
 
+var sub_one_t_m= +prompt("Enter first subject total marks");
+var sub_one_o_m= +prompt("Enter first subject obtained marks");
+var sub_two_t_m= +prompt("Enter second subject total marks");
+var sub_two_o_m= +prompt("Enter second subject obtained marks");
+var sub_three_t_m= +prompt("Enter three subject total marks");
+var sub_three_o_m= +prompt("Enter three subject obtained marks");
+var totalMarks=sub_two_t_m+sub_one_t_m+sub_three_t_m;
+document.write("Total Marks: " + totalMarks + "<br>");
+var obtainedMarks=sub_one_o_m+sub_two_o_m+sub_three_o_m;
+document.write("Marks Obtained: " + obtainedMarks + "<br>");
+percentage=(obtainedMarks/totalMarks)*100;
+document.write("Percentage: " + percentage + "%" + "<br>");
+if(percentage>=80){
+    document.write("Grade: A-one" + "<br>");
+    document.write("Remarks: Excellent" + "<br>");
+}
+if(percentage>70){
+    document.write("Grade: A" + "<br>");
+    document.write("Remarks: Good" + "<br>");
+}
+if(percentage>60){
+    document.write("Grade: B" + "<br>");
+    document.write("Remarks: You need to improve" + "<br>");
+}
+if(percentage<60){
+    document.write("Grade: Fail" + "<br>");
+    document.write("Remarks: Sorry" + "<br>");
+}
+
+var number=9;
+var surprise_num= +prompt("Guess the secret number, Enter a number from 1 to 10")
+if(surprise_num===9){
+    alert("“Bingo! Correct answer”");
+}
+else if(surprise_num=8){
+    alert("“Close enough to the correct answer”");
+}
+else{
+    alert("Sorry to say, You can't guess the number");
+}
+
+var checkDivisible= +prompt("enter any number that divides by three, if possible to divide then i provide  answer");
+if(checkDivisible % 3===0){
+    alert("The number is divisible by 3")
+}
+else{
+  alert( "The number is not divisible by 3") ;
+}
+
+var check_odd_even= +prompt("Enter a number i will tell you the number is Ood or even");
+if (check_odd_even % 2 == 0){
+    alert(check_odd_even + " is Even")
+}
+else{
+    alert(check_odd_even + " is Odd")
+}
+ 
+
 
 
  
