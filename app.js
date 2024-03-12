@@ -138,12 +138,30 @@ else{
 
 var check_odd_even= +prompt("Enter a number i will tell you the number is Ood or even");
 if (check_odd_even % 2 == 0){
-    alert(check_odd_even + " is Even")
+    alert(check_odd_even + " is Even");
 }
 else{
-    alert(check_odd_even + " is Odd")
+    alert(check_odd_even + " is Odd");
 }
  
+var temperature= +prompt ("Enter Your City Temperature");
+if(temperature>40){
+    alert("It is too hot outside.");
+}
+else if(temperature>30){
+    alert("The Weather today is Normal.");
+}
+else if(temperature>20){
+    alert("Today’s Weather is cool.");
+}
+else if(temperature>10){
+    alert("OMG! Today’s weather is so Cool.");
+}
+
+
+
+
+
 
 
 
